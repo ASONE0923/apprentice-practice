@@ -1,15 +1,17 @@
-#1.Hello World
+# frozen_string_literal: true
+
+# 1.Hello World
 
 def hello
-  "Hello World"
+  'Hello World'
 end
 
 puts hello
 
-#2.挨拶
+# 2.挨拶
 
 def greeting(name)
-    puts "おはよう、#{name} "
+  puts "おはよう、#{name} "
 end
 
-greeting("清水")
+greeting('清水')
