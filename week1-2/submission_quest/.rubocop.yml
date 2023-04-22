@@ -1,0 +1,3 @@
+# NewCops: enable → NewCops: rubocop のバージョンをアップグレードしたときに新しいCopが自動的に有効になる設定
+AllCops:
+  NewCops: enable 
