@@ -1,0 +1,6 @@
+[submodule "week5-6/test_db"]
+	path = week5-6/test_db
+	url = git@github.com:datacharmer/test_db.git
+[submodule "week5-6/week5-6/test_db"]
+	path = week5-6/week5-6/test_db
+	url = git@github.com:datacharmer/test_db.git
