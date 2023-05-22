@@ -1,0 +1,8 @@
+## 2. HTML Living Standard
+- HTML Living Standardとは、Apple・Mozilla・Operaの開発者によって設立されたWHATWGという組織が策定するHTMLの仕様のことです.例えば、これまではW3Cという組織が策定したHTML5やHTML5.1、HTML5.2がHTMLの標準仕様でした。このHTMLの標準仕様をW3Cでなく、WHATWGという組織が取り決めることになりました。この組織が取り決めるHTMLの標準仕様が、HTML Living Standardというわけです。
+
+- HTML Living Standardが採用された理由は、HTMLの標準仕様をWHATWGという組織が取り決めることになったからです。具体的には、当初、別々に独自の仕様を策定して活動してたWHATWGとW3Cは寄り添って共同作業を開始しました。そんな中、「W3C」はドキュメントを整備してから発行したく、「WHATWG」は順次アップデートを行いたいという考えの違いが生まれたり、「W3C」が「WHATWG」のHTMLをベースに独自の要素を付け足すなどして両組織のHTMLが徐々に乖離します。この乖離によって、WHATWGは2011年10月にHTML Living Standardを開始し、2012年には共同作業を中止、W3Cは2014年10月にHTML5を、2016年11月にHTML5.1を独自に勧告しました。つまり、W3Cが勧告するHTML5/HTML5.1と、WHATWGが策定を進めるHTML Living Standardの2つの標準に分裂する状態になりました。
+- このころから、GoogleのChromeやMozillaのFirefox,、AppleのSafari,、Operaなどの主要ブラウザがW3Cに準拠することを辞めて、HTML Living Standardを標準仕様として採用し始めました。さらに唯一のW3C派だったMicrosoftのEdgeもChromeと同じChromiumベースに移行することを発表しました。
+- この流れからW3Cは独自のHTMLの標準化を断念して、今後のHTML標準化をWHATWGにゆだねました。結果、WHATWGは、2021年1月28日にW3CのHTML関連の仕様（HTML５など）をすべて廃止して、独自に策定してきたHTML Living Standardに完全統一しHTMLの標準仕様に採用したというわけです。
+
+- このように、HTMLの標準仕様をWHATWGという組織が取り決めることになったので、HTML Living Standardが採用されたというわけです。
