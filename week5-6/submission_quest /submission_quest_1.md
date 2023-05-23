@@ -47,6 +47,7 @@
 | 詳細           | TEXT         | YES  |            |        |                |
 | 動画時間       | INT          |      |            |        |                |
 | 公開日         | DATE         |      |            |        |                |
+| 視聴数         | INT        |      |            |      0  |                |
 
 - 外部キー制約：番組ID に対して、 番組 テーブルの id カラムから設定
 - 外部キー制約：シーズンID に対して、 シーズン テーブルの id カラムから設定
@@ -74,7 +75,6 @@
 |---------------|----------|------|------------|--------|----------------|
 | id            | BIGINT(20) |      | PRIMARY    |        | YES            |
 | エピソードID  | BIGINT(20) |      |            |        |                |
-| チャンネルID  | BIGINT(20) |      |            |        |                |
 | 番組枠ID      | BIGINT(20)|      |            |        |                |
 | 視聴数        | INT      |      |            | 0      |                |
 
@@ -82,4 +82,5 @@
 - 外部キー制約：ジャンルID に対して、 ジャンル テーブルの id カラムから設定
 - 外部キー制約：番組ID に対して、 番組 テーブルの id カラムから設定
 
-[![Image from Gyazo](https://i.gyazo.com/51ce15267f0065a3aaa31585dfaa1058.png)](https://gyazo.com/51ce15267f0065a3aaa31585dfaa1058)
+[ER図]
+[![Image from Gyazo](https://i.gyazo.com/a73f753836a5bc002f4146bccb33596f.png)](https://gyazo.com/a73f753836a5bc002f4146bccb33596f)
